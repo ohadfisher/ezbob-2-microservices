@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  ezbob-service-shuffle:
+    image: ohadfisher/ezbob-service-shuffle:latest
+    container_name: ezbob-service-shuffle
+    restart: always
+    ports:
+      - 8081:8081
+
+  ezbob-service-log:
+    image: ohadfisher/ezbob-service-log:latest
+    container_name: ezbob-service-log
+    restart: always
+    ports:
+      - 8082:8082

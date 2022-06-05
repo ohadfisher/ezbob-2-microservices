@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+ ezbob-service-shuffle:
+  build:
+    context: service-shuffle
+    dockerfile: Dockerfile
+  ports:
+    - "8081:8081"
+ ezbob-service-log:
+  build:
+    context: service-log
+    dockerfile: Dockerfile
+  ports:
+    - "8082:8082"
+  depends_on:
+    - ezbob-service-shuffle

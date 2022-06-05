@@ -1,0 +1,4 @@
+log/service/LogService.class
+log/service/LogToConsoleService.class
+log/LogApplication.class
+log/controller/LogController.class

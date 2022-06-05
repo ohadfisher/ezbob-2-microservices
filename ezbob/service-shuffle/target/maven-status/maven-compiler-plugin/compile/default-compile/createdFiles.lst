@@ -1,0 +1,4 @@
+shuffle/ShuffleApplication.class
+shuffle/service/LogService.class
+shuffle/service/ShuffleService.class
+shuffle/controller/ShuffleController.class
